@@ -29,6 +29,15 @@ def random(min, max)
   rand((max + 1) - min) + min
 end
 
+# returns true the passed in % of the time
+# ex: `percent_chance?(25)` -- 1/4 chance of returning true
+def percent_chance?(percent)
+  error("percent param (#{percent}) can't be above 100!") if percent.to_f > 100.0
+  return false if percent.to_f == 0.0
+  return true if percent.to_f == 100.0
+  rand() < (p / 100.0)
+end
+
 # strips away the junk added by GTK::OpenEntity
 def open_entity_to_hash(open_entity)
   open_entity.as_hash.except(:entity_id, :entity_name, :entity_keys_by_ref, :__thrash_count__)
@@ -49,15 +58,6 @@ def collide(args, col1, col2, callback)
       end
     end
   end
-end
-
-# returns true the passed in % of the time
-# ex: `percent_chance?(25)` -- 1/4 chance of returning true
-def percent_chance?(percent)
-  percent = Integer(percent)
-  error("percent param (#{percent}) can't be above 100!") if percent > 100
-  return false if percent == 0
-  rand(100 / percent) == 0
 end
 
 # +angle+ is expected to be in degrees with 0 being facing right
