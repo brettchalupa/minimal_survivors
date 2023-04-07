@@ -4,7 +4,7 @@
 
 Inspired by _Vampire Survivors_ and the like. Made over the course of a week. The starting point for the experimental Exquisite Corps jam by the DragonRuby Game Toolkit community.
 
-Built with DragonRuby Game Toolkit v4.0 Standard Edition.
+Built with DragonRuby Game Toolkit v4.6 Standard Edition.
 
 ## Controls
 
