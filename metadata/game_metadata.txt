@@ -1,7 +1,7 @@
-devid=dragonridersunite
-devtitle=Dragon Riders Community
-gameid=exquisite-corps
-gametitle=Exquisite Corps
+devid=brettchalupa
+devtitle=Brett Chalupa
+gameid=minimal-survivors
+gametitle=Minimal Survivors
 version=0.1
 icon=metadata/icon.png
 
