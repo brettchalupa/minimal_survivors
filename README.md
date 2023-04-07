@@ -1,6 +1,8 @@
-# Exquisite Corps
+# Minimal Survivors
 
-**A collaborative jam of chaos**
+**A 2D action shooter prototype**
+
+Inspired by _Vampire Survivors_ and the like. Made over the course of a week. The starting point for the experimental Exquisite Corps jam by the DragonRuby Game Toolkit community.
 
 Built with DragonRuby Game Toolkit v4.0 Standard Edition.
 
@@ -9,30 +11,14 @@ Built with DragonRuby Game Toolkit v4.0 Standard Edition.
 - Move: WASD / Arrow Keys / Gamepad
 - Select & Fire: J / Z / Space / Gamepad A button
 
-## Premise
-
-Inspired by the exquisite corpse exercise that artists do, what if we made a game where each person worked on it for a week and then passed it to the next person?
-
-Any member of the DragonRuby community can sign up, and the game will be done when there's no one left to go!
-
-The spirit of this project is to experiment, have fun, and be less precious about what we make. Much like improv, there are no rules other than to say "yes, and" to those who went before you. It's okay to rewrite code, change things, add things, but don't just wholesale tear out what other people did.
-
-Have fun! See you on the other side.
-
-[Discord Thread](https://discord.com/channels/608064116111966245/1051849160627847219)
-
 ## Developing
 
 The engine files are not included in this source repository so that people can use whatever operating system they want. Also, if we open source it when it's done, it's easier to not have to deal with that.
 
 1. Unzip the DragonRuby Game Toolkit engine zip
 2. Delete the `mygame` directory
-3. Clone the repository into the DRGTK engine folder with the folder name `mygame`: `git clone git@github.com:DragonRidersUnite/exquisite_corps.git mygame`
+3. Clone the repository into the DRGTK engine folder with the folder name `mygame`: `git clone git@github.com:brettchalupa/minimal_survivors.git mygame`
 4. Start DragonRuby, and make it awesome!
-
-### Where to Start
-
-When your week is beginning, add your name to the `CREDITS` array. It's a shuffled list of everyone who worked on the game.
 
 ### On the Code Architecture
 
@@ -57,18 +43,3 @@ Tests for methods live in `app/tests.rb`. Run the tests with from within your en
 ```
 
 or just use `./run_tests` if you're on an OS with shell scripting (Linux/MacOS).
-
-## Weekly Hand-Off
-
-These are the steps for Brett at the end of each participant's week:
-
-1. Test the build
-2. Bump the version
-3. Commit & tag the bump
-4. Record progress video
-5. Upload to itch.io for private viewing
-6. Add next person to GitHub repo
-7. Add next person to private Discord thread
-8. Let them know they're up!
-9. Update the [spreadsheet](https://docs.google.com/spreadsheets/d/1mYuRJ8Y6dVQJDy_0MaMyJSEselNp7LXFXM0fKSjbJqw/edit)
-10. Add collaborator to itch.io
