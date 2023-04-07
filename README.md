@@ -6,7 +6,7 @@ Inspired by _Vampire Survivors_ and the like. Made over the course of a week. Th
 
 _Minimal Survivors_ is dedicated to the public domain.
 
-Built with DragonRuby Game Toolkit v4.6 Pro Edition (uses Standard features in the code but uses the Pro high DPI and bytecode features).
+Built with DragonRuby Game Toolkit v3.24 Pro Edition (uses Standard features in the code but uses the Pro high DPI and bytecode features).
 
 ## Controls
 
