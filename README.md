@@ -1,8 +1,10 @@
 # Minimal Survivors
 
-**A 2D action shooter prototype**
+**A 2D action shooter prototype by Brett Chalupa**
 
 Inspired by _Vampire Survivors_ and the like. Made over the course of a week. The starting point for the experimental Exquisite Corps jam by the DragonRuby Game Toolkit community.
+
+_Minimal Survivors_ is dedicated to the public domain.
 
 Built with DragonRuby Game Toolkit v4.6 Standard Edition.
 
