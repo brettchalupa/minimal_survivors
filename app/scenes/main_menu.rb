@@ -38,6 +38,9 @@ module Scene
         args.inputs.controller_one.connected ? :controls_gamepad : :controls_keyboard,
         x: args.grid.right - 24, y: 48,
         size: SIZE_XS, align: ALIGN_RIGHT)
+      labels << label(
+        "v" + version, x: 24.from_left, y: 24.from_top,
+        size: SIZE_XS, align: ALIGN_LEFT, font: FONT_REGULAR)
 
       args.outputs.labels << labels
     end
